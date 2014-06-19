@@ -14,6 +14,7 @@ namespace Hubble.Core
             RowKey = entityId;
         }
 
+        //test comment
         public string EntityID { get; set; }
         public double cpu { get; set; }
         public int sess { get; set; }
