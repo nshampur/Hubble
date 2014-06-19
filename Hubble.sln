@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Hubble", "Hubble\Hubble.ccproj", "{B64E54AC-09C0-46A1-A269-FE9362CE7ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metering_Worker", "Metering_Worker\Metering_Worker.csproj", "{B61C9FA5-077E-422C-84B3-5F7D0DA54F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubble.Core", "Hubble.Core\Hubble.Core.csproj", "{D38461B1-753B-47B9-A0EE-365331C690F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubble.Metering", "Hubble.Metering\Hubble.Metering.csproj", "{DE82D498-43D2-4461-A11B-9D7D3A10E5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubble.Repository", "Hubble.Repository\Hubble.Repository.csproj", "{7B9DE969-75EF-46CD-847D-E6738A90BF3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64E54AC-09C0-46A1-A269-FE9362CE7ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64E54AC-09C0-46A1-A269-FE9362CE7ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64E54AC-09C0-46A1-A269-FE9362CE7ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64E54AC-09C0-46A1-A269-FE9362CE7ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B61C9FA5-077E-422C-84B3-5F7D0DA54F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61C9FA5-077E-422C-84B3-5F7D0DA54F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61C9FA5-077E-422C-84B3-5F7D0DA54F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61C9FA5-077E-422C-84B3-5F7D0DA54F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38461B1-753B-47B9-A0EE-365331C690F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38461B1-753B-47B9-A0EE-365331C690F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38461B1-753B-47B9-A0EE-365331C690F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38461B1-753B-47B9-A0EE-365331C690F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE82D498-43D2-4461-A11B-9D7D3A10E5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE82D498-43D2-4461-A11B-9D7D3A10E5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE82D498-43D2-4461-A11B-9D7D3A10E5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE82D498-43D2-4461-A11B-9D7D3A10E5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9DE969-75EF-46CD-847D-E6738A90BF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9DE969-75EF-46CD-847D-E6738A90BF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9DE969-75EF-46CD-847D-E6738A90BF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9DE969-75EF-46CD-847D-E6738A90BF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
